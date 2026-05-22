@@ -1,0 +1,58 @@
+export const lightColors = {
+  background: '#FCFBF9',
+  surface: '#FFFFFF',
+  surfaceVariant: '#F5F4F2',
+  primary: '#2E7D32',
+  primaryLight: '#4CAF50',
+  secondary: '#1565C0',
+  accent: '#FF6D00',
+  text: '#1E2432',
+  textSecondary: '#8A8A8A',
+  textTertiary: '#ABABAB',
+  border: '#EFEFEF',
+  borderStrong: '#E8E8E8',
+  error: '#E53935',
+  success: '#2E7D32',
+  income: '#2E7D32',
+  expense: '#E53935',
+  incomeBg: '#E8F5E9',
+  expenseBg: '#FFEBEE',
+  cardDark: '#1E2432',
+  cardDarkText: '#FFFFFF',
+  tabBar: '#FFFFFF',
+  tabBarBorder: '#EFEFEF',
+  divider: '#F5F4F2',
+};
+
+export const darkColors = {
+  background: '#121318',
+  surface: '#1C1D24',
+  surfaceVariant: '#262730',
+  primary: '#4CAF50',
+  primaryLight: '#66BB6A',
+  secondary: '#42A5F5',
+  accent: '#FF9800',
+  text: '#F0F0F2',
+  textSecondary: '#8A8D96',
+  textTertiary: '#5C5F69',
+  border: '#2E3039',
+  borderStrong: '#2E3039',
+  error: '#EF5350',
+  success: '#4CAF50',
+  income: '#4CAF50',
+  expense: '#EF5350',
+  incomeBg: '#1B2E1C',
+  expenseBg: '#2D1515',
+  cardDark: '#1E2432',
+  cardDarkText: '#FFFFFF',
+  tabBar: '#1C1D24',
+  tabBarBorder: '#2E3039',
+  divider: '#262730',
+};
+
+export type AppColors = typeof lightColors;
+
+export const colorPalette: Record<'light' | 'dark', AppColors> = {
+  light: lightColors,
+  dark: darkColors,
+};
